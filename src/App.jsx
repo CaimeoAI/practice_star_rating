@@ -1,9 +1,10 @@
 import './App.css'
+import StarRating from './components/star-rating'
 
 export default function App() {
 
   return (
-    <div></div>
+    <StarRating />
   )
 }
 
