@@ -39,7 +39,7 @@ export default function StarRating({starAmount = 10}){
                             className={index <= (currentHover || currentRating) ? "active" : "inactive"}
                             onClick={() => handleClick(index)}
                             onMouseMove={() => handleMouseEnter(index)}
-                            onMouseLeave={() => handleMouseLeave(index)}
+                            onMouseLeave={() => handleMouseLeave()}
                             size={40}
                             />
                 })
